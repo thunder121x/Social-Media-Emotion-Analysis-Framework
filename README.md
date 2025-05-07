@@ -33,9 +33,11 @@ Install all required Python packages using the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-### 3. Run Preprocessing
+### 3. Run Preprocessing & Tokenize
 
-Run the `preprocessing.ipynb` notebook to clean and preprocess the data before feature extraction.
+3.1 Run the `preprocessing.ipynb` notebook to clean and preprocess the data before feature extraction.
+
+3.2 Run the `tokenize.ipynb` notebook to tokenization the post text and preprocess the token before training.
 
 ### 4. Feature Engineering
 
