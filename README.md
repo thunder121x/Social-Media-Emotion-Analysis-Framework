@@ -46,7 +46,8 @@ Use one or more of the following notebooks for feature extraction:
 * `featureEn_TFIDFvader.ipynb`: TF-IDF vectorization + VADER sentiment + metadata features
 * `featureEn_BowVader.ipynb`: Bag-of-Words + VADER sentiment
 * `featureEn_Bert.ipynb`: BERT embeddings
-* `featureEn_Token.ipynb`: Token-based representations (e.g., for deep learning)
+* `featureEn_TokenBestModel.ipynb`: Token-based representations using pre-trained models or word embeddings for deep learning.
+* `featureEn_TokenPCA.ipynb`: Word2Vec model to generate embeddings for tokens, followed by dimensionality reduction using PCA for visualization and model input.
 
 ### 5. Data Splitting
 
@@ -64,14 +65,15 @@ Social-Media-Emotion-Analysis-Framework/
 │   ├── Mental-Health-Twitter-Tokenized.csv    # Single tokenized dataset
 │   └── slang.json                             # Slang replacement dictionary
 ├── script/
-│   ├── eda.ipynb                  # Exploratory Data Analysis
-│   ├── featureEn_Bert.ipynb       # Feature engineering with BERT
-│   ├── featureEn_BowVader.ipynb   # BoW + VADER sentiment features
-│   ├── featureEn_TFIDFvader.ipynb # TF-IDF + VADER + metadata features
-│   ├── featureEn_Token.ipynb      # Token-based feature engineering
-│   ├── preprocessing.ipynb        # Data cleaning and preparation
-│   ├── split.ipynb                # Train/Val/Test data split
-│   └── tokenize.ipynb             # Word/Token preprocessing
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+│   ├── eda.ipynb                       # Exploratory Data Analysis
+│   ├── featureEn_Bert.ipynb            # Feature engineering with BERT
+│   ├── featureEn_BowVader.ipynb        # BoW + VADER sentiment features
+│   ├── featureEn_TFIDFvader.ipynb      # TF-IDF + VADER + metadata features
+│   ├── featureEn_TokenBestModel.ipynb  # Word embeddings for deep learning
+│   ├── featureEn_TokenPCA.ipynb        # Word2Vec model to generate embeddings for tokens
+│   ├── preprocessing.ipynb             # Data cleaning and preparation
+│   ├── split.ipynb                     # Train/Val/Test data split
+│   └── tokenize.ipynb                  # Word/Token preprocessing
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
 ```
