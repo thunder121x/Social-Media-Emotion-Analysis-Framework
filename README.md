@@ -73,5 +73,5 @@ Social-Media-Emotion-Analysis-Framework/
 │   ├── split.ipynb                # Train/Val/Test data split
 │   └── tokenize.ipynb             # Word/Token preprocessing
 ├── requirements.txt               # Python dependencies
-├── README.md                      # Project documentation
+└── README.md                      # Project documentation
 ```
