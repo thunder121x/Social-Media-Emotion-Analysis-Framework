@@ -58,22 +58,22 @@ Use `split.ipynb` to split your dataset into train, validation, and test sets (i
 ```text
 Social-Media-Emotion-Analysis-Framework/
 ├── resource/
-│   ├── Mental-Health-Twitter-Preprocessed/    # Preprocessed CSVs (train/val/test)
-│   ├── Mental-Health-Twitter-Tokenized/       # Tokenized CSVs (train/val/test)
-│   ├── Mental-Health-Twitter.csv              # Original raw dataset
-│   ├── Mental-Health-Twitter-Preprocessed.csv # Single cleaned dataset
-│   ├── Mental-Health-Twitter-Tokenized.csv    # Single tokenized dataset
-│   └── slang.json                             # Slang replacement dictionary
+│   ├── Mental-Health-Twitter-Preprocessed/     # Preprocessed CSVs (train/val/test)
+│   ├── Mental-Health-Twitter-Tokenized/        # Tokenized CSVs (train/val/test)
+│   ├── Mental-Health-Twitter.csv               # Original raw dataset
+│   ├── Mental-Health-Twitter-Preprocessed.csv  # Single cleaned dataset
+│   ├── Mental-Health-Twitter-Tokenized.csv     # Single tokenized dataset
+│   └── slang.json                              # Slang replacement dictionary
 ├── script/
-│   ├── eda.ipynb                       # Exploratory Data Analysis
-│   ├── featureEn_Bert.ipynb            # Feature engineering with BERT
-│   ├── featureEn_BowVader.ipynb        # BoW + VADER sentiment features
-│   ├── featureEn_TFIDFvader.ipynb      # TF-IDF + VADER + metadata features
-│   ├── featureEn_TokenBestModel.ipynb  # Word embeddings for deep learning
-│   ├── featureEn_TokenPCA.ipynb        # Word2Vec model to generate embeddings for tokens
-│   ├── preprocessing.ipynb             # Data cleaning and preparation
-│   ├── split.ipynb                     # Train/Val/Test data split
-│   └── tokenize.ipynb                  # Word/Token preprocessing
-├── requirements.txt                    # Python dependencies
-└── README.md                           # Project documentation
+│   ├── eda.ipynb                               # Exploratory Data Analysis
+│   ├── featureEn_Bert.ipynb                    # Feature engineering with BERT
+│   ├── featureEn_BowVader.ipynb                # BoW + VADER sentiment features
+│   ├── featureEn_TFIDFvader.ipynb              # TF-IDF + VADER + metadata features
+│   ├── featureEn_TokenBestModel.ipynb          # Word embeddings for deep learning
+│   ├── featureEn_TokenPCA.ipynb                # Word2Vec model to generate embeddings for tokens
+│   ├── preprocessing.ipynb                     # Data cleaning and preparation
+│   ├── split.ipynb                             # Train/Val/Test data split
+│   └── tokenize.ipynb                          # Word/Token preprocessing
+├── requirements.txt                            # Python dependencies
+└── README.md                                   # Project documentation
 ```
