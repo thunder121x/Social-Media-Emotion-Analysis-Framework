@@ -35,11 +35,17 @@ pip install -r requirements.txt
 
 ### 3. Run Preprocessing & Tokenize
 
-3.1 Run the `preprocessing.ipynb` notebook to clean and preprocess the data before feature extraction.
+Run the `preprocessing.ipynb` notebook to clean and preprocess the data before feature extraction.
 
-3.2 Run the `tokenize.ipynb` notebook to tokenization the post text and preprocess the token before training.
+### 4. Run Preprocessing & Tokenize
 
-### 4. Feature Engineering
+Run the `tokenize.ipynb` notebook to tokenization the post text and preprocess the token before training.
+
+### 5. Data Splitting
+
+Use `split.ipynb` to split your dataset into train, validation, and test sets (if not already split).
+
+### 6. Feature Engineering
 
 Use one or more of the following notebooks for feature extraction:
 
@@ -48,10 +54,6 @@ Use one or more of the following notebooks for feature extraction:
 * `featureEn_Bert.ipynb`: BERT embeddings
 * `featureEn_TokenBestModel.ipynb`: Token-based representations using pre-trained models or word embeddings for deep learning.
 * `featureEn_TokenPCA.ipynb`: Word2Vec model to generate embeddings for tokens, followed by dimensionality reduction using PCA for visualization and model input.
-
-### 5. Data Splitting
-
-Use `split.ipynb` to split your dataset into train, validation, and test sets (if not already split).
 
 ## 📁 Project Structure
 
