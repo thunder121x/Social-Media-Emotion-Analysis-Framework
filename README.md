@@ -1,7 +1,5 @@
 # Social-Media-Emotion-Analysis-Framework
 The project classifies mental health-related tweets (depression and anxiety) as positive or negative using sentiment analysis. It employs NLP and machine learning, also exploring topic modeling (LDA) and emoji sentiment for better accuracy.
-Here is a `README.md` to explain the structure and purpose of each file in your `Social-Media-Emotion-Analysis-Framework` project:
-Here's a tailored `README.md` for your **Social-Media-Emotion-Analysis-Framework** project, following the structure and tone you requested:
 
 ---
 
@@ -35,11 +33,17 @@ pip install -r requirements.txt
 
 ### 3. Run Preprocessing & Tokenize
 
-3.1 Run the `preprocessing.ipynb` notebook to clean and preprocess the data before feature extraction.
+Run the `preprocessing.ipynb` notebook to clean and preprocess the data before feature extraction.
 
-3.2 Run the `tokenize.ipynb` notebook to tokenization the post text and preprocess the token before training.
+### 4. Run Preprocessing & Tokenize
 
-### 4. Feature Engineering
+Run the `tokenize.ipynb` notebook to tokenization the post text and preprocess the token before training.
+
+### 5. Data Splitting
+
+Use `split.ipynb` to split your dataset into train, validation, and test sets (if not already split).
+
+### 6. Feature Engineering
 
 Use one or more of the following notebooks for feature extraction:
 
@@ -48,10 +52,6 @@ Use one or more of the following notebooks for feature extraction:
 * `featureEn_Bert.ipynb`: BERT embeddings
 * `featureEn_TokenBestModel.ipynb`: Token-based representations using pre-trained models or word embeddings for deep learning.
 * `featureEn_TokenPCA.ipynb`: Word2Vec model to generate embeddings for tokens, followed by dimensionality reduction using PCA for visualization and model input.
-
-### 5. Data Splitting
-
-Use `split.ipynb` to split your dataset into train, validation, and test sets (if not already split).
 
 ## 📁 Project Structure
 
